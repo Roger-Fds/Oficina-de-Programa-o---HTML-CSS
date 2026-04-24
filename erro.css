@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #000000;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(90deg, #000000, #000f27);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 250px;
+  height: 100px;
+}
+
+.info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.buntton {
+  color: white;
+  border: 1px solid #00aaff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.buntton:hover {
+  background: #00aaff;
+  color: #000000;
+}
+
+/* ERRO */
+.erro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.img-erro {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.erro h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: #00aaff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+/* BOTÃO */
+.buttons {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buttons:hover {
+  transform: scale(1.05);
+}
